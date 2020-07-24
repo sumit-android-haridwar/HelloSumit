@@ -20,6 +20,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		90F997F9128143EBD3A27703 /* libPods-HelloSumit-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1E091E28A2071CCAD49BA7 /* libPods-HelloSumit-tvOS.a */; };
 		C6AFDDE1F65F237DC06EFB93 /* libPods-HelloSumit-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1426A37866D1149158D63D9E /* libPods-HelloSumit-tvOSTests.a */; };
+		EFF9AD3824CB5A6900E3A2BE /* AppCenter-Config.plist.xml in Resources */ = {isa = PBXBuildFile; fileRef = EFF9AD3724CB5A6900E3A2BE /* AppCenter-Config.plist.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		D7160243236F52D3881E327C /* Pods-HelloSumit-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloSumit-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-HelloSumit-tvOS/Pods-HelloSumit-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EFF9AD3724CB5A6900E3A2BE /* AppCenter-Config.plist.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppCenter-Config.plist.xml"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +163,6 @@
 				288D679EB04FA2F95253A997 /* Pods-HelloSumit-tvOSTests.debug.xcconfig */,
 				1323110099773D476B7786BE /* Pods-HelloSumit-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,6 +176,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				EFF9AD3724CB5A6900E3A2BE /* AppCenter-Config.plist.xml */,
 				13B07FAE1A68108700A75B9A /* HelloSumit */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* HelloSumitTests */,
@@ -342,6 +344,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				EFF9AD3824CB5A6900E3A2BE /* AppCenter-Config.plist.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
