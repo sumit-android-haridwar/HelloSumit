@@ -48,6 +48,7 @@ public class MainApplication extends Application implements ReactApplication {
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
     AppCenter.start(this, "df3ba114-dbe7-4a17-b470-41d65e162ea7", Distribute.class);
+      Distribute.checkForUpdate();
   }
 
   /**
