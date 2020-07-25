@@ -1,6 +1,15 @@
 apply plugin: "com.android.application"
-
+dependencies {
+   def appCenterSdkVersion = '3.3.0'
+   implementation "com.microsoft.appcenter:appcenter-distribute:${appCenterSdkVersion}"
+}
 import com.android.build.OutputFile
+
+dependencies {
+    def appCenterSdkVersion = '3.3.0'
+    implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
+}
 
 /**
  * The react.gradle file registers a task for each build variant (e.g. bundleDebugJsAndAssets
